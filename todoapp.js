@@ -13,6 +13,7 @@ filterOption.addEventListener("click", filterTodo);
 document.addEventListener('DOMContentLoaded', getTodos);
 clearList.addEventListener("click", clearTodos);
 
+
 //-------- Functions ---------
 function addTodo(event) {
     //Prevent form from submitting

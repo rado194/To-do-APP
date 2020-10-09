@@ -114,17 +114,18 @@ select {
 }
 
 .select {
-    width: 15rem;
+    width: 13rem;
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    padding-left: 2rem;
 }
 
 select {
     color: #ff6f47;
-    width: 15rem;
+    width: 12.8rem; 
     cursor: pointer;
-    padding: 1rem;
+    padding: 0.7rem;
 }
 
 .select::after {
@@ -133,7 +134,7 @@ select {
     background: #ff6f47;
     top: 0;
     right: 0;
-    padding: 1rem;
+    padding: 0.7rem;
     pointer-events: none;
     transition: all 0.3s ease;
 }
